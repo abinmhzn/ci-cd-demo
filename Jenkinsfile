@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/abinmhzn/java-form-app.git'
+                git 'https://github.com/abinmhzn/ci-cd-demo.git'
             }
         }
 
